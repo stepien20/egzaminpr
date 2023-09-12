@@ -25,6 +25,9 @@ aside{
     height: 560px;
     width: 80%;
     padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 footer{
     background-color: #1A3B98;
@@ -39,6 +42,7 @@ text-decoration: none;
 table{
     width: 500px;
     text-align: center;
+    /* margin: auto; */
 }
 th{
     background-color: #777777;
@@ -52,4 +56,12 @@ tr:nth-child(odd){
 }
 .katBMI{
     font-size: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    display: block;
 }
