@@ -5,6 +5,8 @@ body{
 main{
     width: 800px;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 header{
     height: 260px;
